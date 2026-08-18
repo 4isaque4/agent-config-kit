@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**/.env)",
+      "Read(**/.env.*)"
+    ],
+    "deny": []
+  },
+  "sandbox": {
+    "enabled": true
+  }
+}
+

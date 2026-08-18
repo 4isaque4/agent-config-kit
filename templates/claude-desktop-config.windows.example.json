@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "example-server": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@vendor/example-mcp-server"
+      ],
+      "env": {
+        "EXAMPLE_API_KEY": "SET_LOCALLY_DO_NOT_COMMIT"
+      }
+    }
+  }
+}
+

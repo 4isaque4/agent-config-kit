@@ -1,0 +1,20 @@
+# Mescle somente o servidor necessário em ~/.codex/config.toml.
+# Prefira token via nome de variável, nunca o valor no arquivo.
+
+[mcp_servers.example_remote]
+url = "https://example.com/mcp"
+bearer_token_env_var = "EXAMPLE_MCP_TOKEN"
+enabled_tools = ["search", "read"]
+default_tools_approval_mode = "prompt"
+startup_timeout_sec = 20
+tool_timeout_sec = 45
+enabled = false
+
+# Exemplo stdio no Windows:
+# [mcp_servers.example_local]
+# command = "cmd"
+# args = ["/c", "npx", "-y", "@vendor/example-mcp-server"]
+# enabled_tools = ["search", "read"]
+# default_tools_approval_mode = "prompt"
+# enabled = false
+

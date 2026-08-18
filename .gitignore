@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+*.local.json
+CLAUDE.local.md
+.DS_Store
+Thumbs.db
+work/
+reports/private-*
+
